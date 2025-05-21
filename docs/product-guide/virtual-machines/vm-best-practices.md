@@ -72,7 +72,7 @@ It is important to remember that the remote console provides direct monitor/keyb
 
 ## Networking
 
-- Use virtio network drivers when possible as will normally provide the best performance. The latest stable virtio drivers are available for download at: [https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)  
+- Use virtio network drivers when possible as it will normally provide the best performance. The latest stable virtio drivers are available for download at: [https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)  
 Use legacy network drivers when necessary, but consider upgrading your operating system to a newer version if it will not support virtio network drivers.
 
 - Keep in mind -- NIC teaming is generally not beneficial on VergeOS VMs as network redundancy and load balancing are already provided through the infrastructure. Using NIC teaming within the guest OS would consume unnecessary resources and potentially cause issues. (The only exception to this rule would be in cases where the machine is using physical network pass-through hardware.)
