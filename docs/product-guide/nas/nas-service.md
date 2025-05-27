@@ -10,7 +10,7 @@ The NAS feature provides file-level storage/access within a VergeOS system. NAS 
 4. Enter a ***Name*** for the new NAS Service.
 
     !!! info
-        The New NAS Service will be a VM; therefore it cannot have a name that is in use by another VM in the same VergeOS Cloud.
+        The New NAS Service will be a VM; therefore it cannot have a name that is in use by another VM in the same VergeOS Cloud. Names are case sensitive. 
 
 5. The default setting for ***Cores*** is 4; this setting is suitable for typical, general-purpose NAS workloads. Heavy antivirus operations and/or frequent sync activity may affect core needs.
 
